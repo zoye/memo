@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <title>小游戏-比眼力</title>
+    <link rel="stylesheet" href="css/main.css"/>
+</head>
+<body>
+
+<div class="all">
+
+    <!--<main-->
+    <div class="g-va-wrap">
+        <div class="g-va">
+            <div id="container">
+                <div class="game-area">
+                    <p class="game-name">比眼力</p>
+                    <canvas id="game">您的浏览器不支持HTML5</canvas>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--main>-->
+
+
+    <!--<dialog-->
+    <!--<div class="dialog">-->
+        <!--<div class="dialogBg"></div>-->
+        <!--<div class="dialogBlock">-->
+            <!--<a href="javascript:" id="btnContinue" class="btnRed">继续游戏</a>-->
+            <!--&lt;!&ndash;<a href="javascript:" id="btnReplay">重新开始</a>&ndash;&gt;-->
+            <!--<a href="javascript:" id="btnHome">返回首页</a>-->
+        <!--</div>-->
+    <!--</div>-->
+    <!--dialog>-->
+
+</div>
+
+<!--<game over tip-->
+<div class="g-tip-wrap">
+    <div class="g-va-wrap">
+        <div class="g-va">
+            <div class="tip-box">
+                <a href="javascript:void (0)" class="close-tip"></a>
+                <p class="tip-header"><span class="score-num">0</span>分</p>
+                <p class="tip-img">
+                    <img src="img/yes.png"/>
+                </p>
+                <p class="tip-text">恭喜你！获得历时最高分</p>
+                <div class="tip-footer">
+                    <a href="#" class="tip-btn btn-red" id="btnReplay">再玩一把</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--game over tip>-->
+
+
+<script type="text/javascript" src="js/createjs.js"></script>
+<script type="text/javascript" src="js/zepto.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/stage.js"></script>
+
+</body>
+
+</html>
