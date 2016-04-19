@@ -1,0 +1,1 @@
+var goods={name:"TV",price:"1000"};console.log("b.js");

@@ -1,0 +1,1 @@
+function sayhello(a,b){console.log(a+b)}var goods={name:"TV",price:"1000"};console.log("a.js");var goods={name:"TV",price:"1000"};console.log("b.js");
